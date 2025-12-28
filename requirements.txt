@@ -1,0 +1,12 @@
+ultralytics>=8.0.0
+opencv-python-headless>=4.7.0
+numpy
+scipy
+filterpy
+cryptography
+flask      # optional (for web upload) - remove if not needed
+aiofiles   # optional, useful for async file handling
+fastapi
+uvicorn[standard]
+python-multipart
+
