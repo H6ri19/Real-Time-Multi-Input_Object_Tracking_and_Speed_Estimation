@@ -25,16 +25,20 @@ Real-Time-Multi-Input_Object_Tracking_and_Speed_Estimation/
 ├── requirements.txt # Python dependencies
 └── README.md # This documentation
 
-▶️ Running the System
+---
+
+
+
+## ▶️ Running the System
 👇 Basic Usage
 python src/main.py --input_video path/to/video.mp4
 
-🖥 Multi-Input Example
+## 🖥 Multi-Input Example
 python src/main.py \
   --input_video1 camera1.mp4 \
   --input_video2 camera2.mp4
 
-🛠 Options
+## 🛠 Options
 --input_video         Path to video file
 --model_weights       Custom YOLOv8 weights
 --output_dir          Save results and logs
@@ -43,5 +47,17 @@ python src/main.py \
 
 Adjust flags depending on how you structured your CLI parsing.
 
-Research Paper Publication 
+---
+
+## OUTPUT 
+![processed_image](https://github.com/user-attachments/assets/6d90dfe7-0c90-4d18-9b37-e1784370dc47)
+
+---
+
+
+## Research Paper Publication 
 <img width="612" height="433" alt="image" src="https://github.com/user-attachments/assets/98adfdeb-e77a-489f-963a-1446ff7c7764" />
+
+
+---
+
